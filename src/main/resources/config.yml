@@ -1,0 +1,46 @@
+# ======================
+# 1. BOOST (Firework/Elytra & Riptide)
+# ======================
+boost:
+  enabled: true
+  cooldown-seconds: 5
+  cooldown-message: "&cBạn phải chờ &6{time}&c giây nữa mới được boost bay lại."
+
+# ======================
+# 2. LEVER (chặn spam cần gạt)
+# ======================
+lever:
+  enabled: true
+  cooldown-seconds: 2
+  cooldown-message: "&cBạn phải chờ &6{time}&c giây nữa mới được kích hoạt lever."
+
+# ======================
+# 3. REDSTONE (chặn spam Redstone Dust)
+# ======================
+redstone:
+  enabled: true
+  cooldown-seconds: 3
+  cooldown-message: "&cBạn đang đặt Redstone quá nhanh, hãy chờ &6{time}&c giây nữa."
+
+# ======================
+# 4. ARMORSTAND (giới hạn số lượng ArmorStand quanh một khu vực)
+# ======================
+armorstand:
+  enabled: true
+  radius-chunks: 16
+  limit: 30
+  limit-message: "&cChỉ được tối đa {limit} ArmorStand trong vùng này (đã có {count})."
+
+
+# ======================
+# 5. MINECART (giới hạn số lượng Minecart quanh một khu vực)
+# ======================
+minecart:
+  enabled: true
+  radius-chunks: 32
+  limit: 30
+  limit-message: "&cKhu vực này đã có &6{count}&c Minecart (cho phép tối đa {limit}). Không thể đặt thêm."
+
+# ======================
+# Các tùy chỉnh khác (nếu cần)...
+# ======================

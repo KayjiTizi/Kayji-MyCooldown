@@ -1,0 +1,20 @@
+name: Kayji-Cooldown
+main: com.aefamily.cooldownplugin.Main
+version: 1.0
+api-version: 1.20
+description: |
+  Plugin hạn chế boost bay với Firework/Elytra và Riptide Trident,
+  đồng thời chặn spam cần gạt lever.
+author: Kayji_Tizi
+
+commands:
+  cooldownplugin:
+    description: "Quản lý plugin CooldownPlugin (reload config, …)"
+    usage: "/<command> reload"
+    aliases: [cdp]
+    permission: cooldownplugin.reload
+
+permissions:
+  cooldownplugin.reload:
+    description: "Cho phép reload config của CooldownPlugin"
+    default: op
